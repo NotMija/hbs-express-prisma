@@ -1,12 +1,9 @@
 const express = require('express');
 const app = express();
-
 const PORT = process.env.PORT || 3000;
-
 const morgan = require('morgan');
 const methodOverride = require('method-override');
 const { create } = require('express-handlebars');
-
 const hbs = create({
   extname: 'hbs',
   defaultLayout: 'main',
