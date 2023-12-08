@@ -4,10 +4,6 @@
      <h1>Welcome to best blog</h1>
     {{#each posts}}
       <li id="tablasCuerpo"><a href="/posts/{{this.id}}"> {{capitalize this.title}}</a></li>
-      
-        <p>{{this.content}}</p>
-        <p>Created: {{formatDate this.createdAt}}</p>
-
     {{/each}}
   </ul>
 </div>
