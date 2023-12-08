@@ -25,7 +25,7 @@ async function main() {
 
   await addPosts();
 
-  console.log('Datos de prueba generados correctamente.');
+  //console.log('Datos de prueba generados correctamente.');
 }
 
 main()

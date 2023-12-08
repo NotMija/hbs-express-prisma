@@ -1,3 +1,40 @@
-.title {
-  color: red;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  font-size: 1rem;
+  background-color: rgb(219, 241, 232);
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+li{
+  padding: 5px;
+}
+
+h1{
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+#tablasCuerpo{
+  padding:10px;
+  padding-left: 20px;
+  border: black solid 1px;
+  border-radius: 50px;
+  margin-right: 1600px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+p {
+  padding-left: 40px;
+  margin: 20px;
 }
