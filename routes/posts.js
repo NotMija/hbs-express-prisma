@@ -96,7 +96,7 @@ router.get("/:id", async (req, res) => {
     res.render("singlePost", { title: postID.title, posts: postID });
   } catch (error) {
     res.json("Server Error");
-  }
+  } 
 });
 
 
